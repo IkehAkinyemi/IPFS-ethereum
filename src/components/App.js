@@ -39,7 +39,7 @@ const App = () => {
       <div className="main">
         <form onSubmit={handleSubmit}>
           <input type="file" onChange={retrieveFile} />
-          <button type="submit">Submit</button>
+          <button type="submit" className="button">Submit</button>
         </form>
       </div>
 
